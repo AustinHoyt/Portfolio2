@@ -11,7 +11,7 @@
 
       <div class="w3-row-padding w3-display-bottommiddle">
         <a href="#about" class="w3-padding-16">
-          <h6 class="w3-green w3-hover-white w3-button w3-round-xxlarge w3-center w3-hover-text-green w3-animate-opacity" onclick="myFunction()">Find out more about what I do<br>
+          <h6 class="modal-btn w3-btn w3-green w3-round-xxlarge w3-center w3-animate-opacity" onclick="myFunction()">Scroll to see more!<br>
           <i class="fa fa-chevron-down"></i></h6>
         </a>
       </div>
@@ -46,16 +46,12 @@
       </div>
       
     </div>
-    <hr>
-    
-   
-    
   </div>
 </section>
   
 <!-- (ASSETS Section) -->
 <section class="str-bg">
-    <div class="about-wrap w3-content w3-container w3-padding-64" id="strength" style="max-width: 1140px">
+    <div class="about-wrap w3-content w3-container w3-padding-64" id="strength">
       
       <div class="w3-row w3-center w3-padding-64">
         <h2 class="w3-padding">My Assets</h2>
@@ -75,20 +71,19 @@
         <i class="w3-green fa fa-automobile fa-4x"></i>
         <h3>Passion</h3>
         <p class="barrier w3-padding">I was driven to learn and create a single website, but my love for web development
-           was the reason I continue</p>
+           is the reason I continue</p>
         <hr>
       </div>
       
       <div class="w3-third w3-padding col-md-4 w3-container w3-center">
-        <i class="w3-green fa fa-code fa-4x"></i>
-        <h3>Code</h3>
-        <p class="barrier w3-padding">My aim is to create modern and responsive designs using HTML, CSS,
-        and some Javascript</p>
+        <i class="w3-green fa fa-mobile fa-4x"></i>
+        <h3>Marketing</h3>
+        <p class="barrier w3-padding">My aim is to create, renovate, and maintain
+        sites with a responsive design using HTML, CSS, and Javascript</p>
         <hr>
       </div>
     
     </div>
-
 </section>
 
   
@@ -102,8 +97,8 @@
     </div>
 
       <!-- Container (About Section) -->
-      <div class="workContainer container work-bg " style="width:100%">
-        <div class=" w3-content w3-container w3-padding-32" style="max-width: 1140px">
+      <div class="workContainer container work-bg ">
+        <div class=" w3-content w3-container w3-padding-32">
           
           <div class="w3-half col-md-6 w3-container w3-center">
             <h3>My Sample Site</h3>
@@ -120,15 +115,15 @@
           </div>
             
           <div class="visitSites col-md-12 w3-container w3-center">
-            <button class="btnStuff w3-btn w3-green w3-hover-white w3-hover-text-green w3-round-xxlarge"><a href="https://fierce-reef-35408.herokuapp.com/">Visit Site</a></button>
+            <button class="modal-btn w3-btn w3-green w3-round-xxlarge"><a href="https://fierce-reef-35408.herokuapp.com/">Visit Site</a></button>
           </div>
       
         </div>
       </div>
 
   <!--// DEVMATCH SECTION-->
-  <div class="work-bg container" style="width:100%">
-    <div class="about-wrap w3-content w3-container w3-padding-64" style="max-width: 1140px">
+  <div class="work-bg container">
+    <div class="about-wrap w3-content w3-container w3-padding-64">
       <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
       <div class="w3-half col-md-6 w3-container w3-center">
         <h3>DevMatch</h3>
@@ -147,7 +142,7 @@
         </div>
         
         <div class="visitSites col-md-12 w3-container w3-center">
-          <button class="btnStuff w3-btn w3-green w3-hover-white w3-hover-text-green w3-round-xxlarge"><a href="https://floating-reef-66397.herokuapp.com/">Visit Site</a></button>
+          <button class="modal-btn w3-btn w3-green w3-round-xxlarge"><a href="https://floating-reef-66397.herokuapp.com/">Visit Site</a></button>
           
         </div>
         
@@ -165,19 +160,72 @@
     </div>
   </div>
   
+
   
+<!-- Container (Contact Section) -->
 <section>
-  <div class="container resumeMain w3-animate-zoom">
-    <div class="about-wrap w3-content w3-container w3-padding-64" id="resume" style="max-width: 1140px">
+<div class="w3-content w3-container" id="contact">
+  <div class="w3-row w3-section">
+    <div class="w3-large w3-center">
+      <h5>I am currently looking for either full-time employment or freelance work</h5>
+      <h6>Feel free to check out my resume and send me a message</h6>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section>
+<!-- Button modal transparent -->
+<div class="w3-content w3-container w3-padding-64">
+  <div class="w3-row w3-section">
+    
+    <div>
+      <div class="w3-center">
+        <button type="button" class="modal-btn btn btn-primary" data-toggle="modal" data-target="#modal-transparent2">
+         <i class="fa fa-envelope"></i>eMail Me
+        </button>
+      </div>
+    </div>
+    
+    <div>
+      <div class="w3-center w3-margin-top">
+        
+        <button type="button" class="modal-btn btn btn-primary" data-toggle="modal" data-target="#modal-transparent">
+          <i class="fa fa-book"></i> My resume
+        </button>
+      </div>
+    </div>
+    
+  </div>
+  
+
+
+
+<!-- Modal transparent -->
+<div class="modal modal-transparent fade" id="modal-transparent" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-space">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+      </div>
+<section>
+  <div class="w3-container resumeMain w3-animate-zoom">
+    <div class="about-wrap w3-content w3-container w3-padding-64" id="resume">
       
       <div class="w3-row w3-padding-32">
         <h2 class="w3-center">Austin Hoyt</h2>
-        <h5>3793 Douglass Ave, Memphis, TN 38111</h5>
-        <h5 class="w3-left">AHoytDeveloper@gmail.com</h5>
-        <h5 class="w3-right">Phone - 901-336-0585</h5>
+        <hr class="w3-hide-large w3-hide-medium">
+        <h5 class="w3-center">3793 Douglass Ave, Memphis, TN 38111</h5>
+        <h5 class="w3-center">AHoytDeveloper@gmail.com</h5>
+        <h5 class="w3-center">Phone - 901-336-0585</h5>
       </div>  
     <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-      <div class="w3-twothird w3-container">
+      <div class="w3-twothird w3-container w3-left">
         <h3 class="barrier w3-padding"><i class="fa fa-gift"></i><strong>Experience</strong></h3>
         <br>
         <h5 class="w3-center"><strong>Web Development</strong></h5>
@@ -223,82 +271,91 @@
           <li><h5 class="w3-padding-small">Bachelor of Business Administration: Marketing Management</h4></li>
           <li><h5 class="w3-padding-small">Google Analytics Beginner Certified</h4></li>
           <li><h5 class="w3-padding-small">Upskill-The Essential Web Developer Course</h4></li>
-          <li><h5 class="w3-padding-small">Lynda-Javascript Essential Training</h4></li>
-          <li><h5 class="w3-padding-small">Lynda-Learning the JavaScript Language</h4></li>
-          <li><h5 class="w3-text-green">These last two look really dumb, but I don't have any other exp.
-                  Should I even list them?** </h4></li>
+          <li><h5 class="w3-padding-small">Javascript Essential Training Course * Lynda</h4></li>
+          <li><h5 class="w3-padding-small">Learning the JavaScript Language Course * Lynda</h4></li>
         </ul>
       </div>
       
       <div class="w3-third w3-container w3-padding">
         <h4 class="barrier w3-padding"><i class="fa fa-wrench"></i><strong>Skills</strong></h4>
         <ul>
-          <li><p>HTML5, CSS3, Sass, Javascript, Bootstrap, GitHub, jQuery, Rails, * would like a few more *</p></li>
+          <li><p>HTML5, CSS3, Sass, Javascript, Bootstrap, GitHub, jQuery, Rails,
+          Google Analytics </p></li>
         </ul>
       </div>
   
     </div>
   </div>
 </section>
-  
-<!-- Container (Contact Section) -->
-<section>
-<div class="w3-content w3-container w3-padding-64" id="contact">
-  <h4 class="w3-center">Looking For Work!</h4>
-  <div class="w3-row w3-section">
-    <div class="w3-large w3-margin-bottom w3-center">
-      <h5>I am currently looking for either full-time employment or freelance work</h5>
-      <h6>Please feel free to send me a message below!</h6>
-      <i class="fa fa-arrow-down"></i>
     </div>
   </div>
+</div>
+
+<!-- Modal transparent -->
+<div class="modal modal-transparent2 fade" id="modal-transparent2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-space">
+    <div class="modal-content2">
   
-</section>
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
 
 <section>
   
+<div class="w3-container">
+  <div class="row">
+    <div class="col-md-12">
+      <form accept-charset="UTF-8" action="https://usebasin.com/f/c2a1289b52a8" method="POST">
+        <div class="row">
+          
+          <div class="col-md-8">
+            
+            <div class="form-group">
+              <h5 class="w3-center">Name</h5>
+            <input id="name"  type="text" name="name" placeholder="Name *" required="">
+            </div>
+            
+            <div class="form-group">
+            <input id="email" type="email" name="email" placeholder="Email address *" required="">
+            </div>
+            
+          </div>
+          
+          <div class="col-md-6">
+            <div class="form-group">
+              <textarea id="Message" name="message" placeholder="Let me know what's going on and how I can help." height="50em" required=""></textarea>
+            </div>          
+          </div> 
+          <div class="col-md-12">
+            <div class="w3-center">
+              <input type="submit" value="Submit Your Project" class="button w3-center button-ghost-white">
+              <p class="required">* Required</p>
+            </div>
+          </div>
+        
+        </div>
+        
+      </form>
+    </div>
+  </div>
+</div>
 
-	<form accept-charset="UTF-8" action="https://usebasin.com/f/c2a1289b52a8" method="POST">
-    <div class="row">
-      <div class="six columns">
-        <input id="name" type="text" name="name" placeholder="Name *" required="" class="u-full-width">
-      </div>
-      <div class="six columns">
-        <input id="email" type="email" name="email" placeholder="Email address *" required="" class="u-full-width">
-      </div>
-    </div>
-    <div class="row">
-      <div class="six columns">
-        <input id="phone" type="text" name="phone" placeholder="Phone number" class="u-full-width">
-      </div>
-      <div class="six columns">
-        <input id="website" type="text" name="website" placeholder="Website" class="u-full-width">
-      </div>
-    </div>
-    <div class="row">
-      <div class="twelve columns">
-        <textarea id="Message" name="message" placeholder="Tell me about your project... what is it? Why are you doing it? What do you hope to accomplish? How can I help? Timeline and budget details are also appreciated. *" height="50em" required="" class="u-full-width"></textarea>
-        <input type="submit" value="Submit Your Project" class="button button-ghost-white">
-        <p class="required">* Required</p>
-      </div>
-    </div>
-  </form>
-	
-
-	
 
 </section>
+    </div>
+  </div>
+</div>
 
 
-  
+</div>
+</section>
+
   
 <!-- Footer -->
 <footer class="w3-center w3-green w3-padding-64">
   <div class="w3-row w3-section">
     <div class="w3-large w3-margin-bottom">
-      <p class="w3-center"><i class="fa fa-map-marker fa-fw w3-hover-text-green w3-xlarge"></i> Memphis, TN<br></p>
-      <p class="w3-center"><i class="fa fa-phone fa-fw w3-hover-text-green w3-xlarge"></i> Phone: +901-336-0585<br></p>
-      <p class="w3-center"><i class="fa fa-envelope w3-center fa-fw w3-hover-text-green w3-xlarge"></i> Email: AHoytDeveloper@gmail.com<br></p>
+      <p class="w3-center"><i class="fa fa-map-marker fa-fw  w3-xlarge"></i> Memphis, TN<br></p>
+      <p class="w3-center"><i class="fa fa-phone fa-fw  w3-xlarge"></i> Phone: +901-336-0585<br></p>
+      <p class="w3-center"><i class="fa fa-envelope w3-center fa-fw  w3-xlarge"></i> Email: AHoytDeveloper@gmail.com<br></p>
     </div>
   </div>
   <div class="w3-xlarge w3-section">

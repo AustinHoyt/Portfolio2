@@ -11,36 +11,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        // Add smooth scrolling to all links
-        $("a").on('click', function(event) {
-          // Make sure this.hash has a value before overriding default behavior
-          if (this.hash !== "") {
-            // Prevent default anchor click behavior
-            event.preventDefault();
-            // Store hash
-            var hash = this.hash;
-            // Using jQuery's animate() method to add smooth page scroll
-            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-            $('html, body').animate({
-              scrollTop: $(hash).offset().top
-            }, 800, function(){
-              // Add hash (#) to URL when done scrolling (default click behavior)
-              window.location.hash = hash;
-            });
-          } // End if
-        });
-      });
-    </script>
-    <script>
-      $(document).ready(function(){
-      	$('.frame').click(function(){
-    		$('.top').addClass('open');
-    		$('.message').addClass('pull');
-    })
-});
-    </script>
     <style>
       h1, h2, h3, h4, h5, h6, p, a {font-family:Montserrat;}
     </style>
@@ -57,7 +27,6 @@
           <a href="#about" class="w3-bar-item w3-hover-teal w3-button w3-hide-small"><i class="fa fa-male"></i>About</a>
           <a href="#strength" class="w3-bar-item w3-hover-teal w3-button w3-hide-small"><i class="fa fa-balance-scale"></i>Strengths</a>
           <a href="#portfolio" class="w3-bar-item w3-hover-teal w3-button w3-hide-small"><i class="fa fa-photo"></i>Portfolio</a>
-          <a href="#resume" class="w3-bar-item w3-hover-teal w3-button w3-hide-small"><i class="fa fa-address-card"></i>Resume</a>
           <a href="#contact" class="w3-bar-item w3-hover-teal w3-button w3-hide-small"><i class="fa fa-envelope"></i>Contact Me</a>
         </div>
       
@@ -67,12 +36,79 @@
           <a href="#strength" class="w3-bar-item w3-button" onclick="toggleFunction()">Strengths</a>
           <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">Portfolio</a>
           <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">Contact</a>
-          <a href="#resume" class="w3-bar-item w3-button" onclick="toggleFunction()">Resume</a>
         </div>
       </div>
       
 
     <%= yield %>
+    <!-- Basin Form Analytics-->
+  <script src="https://usebasin.com/f/363b98eca5af/ahoy.js" async="" defer=""></script>
+  
+  <script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');
+  t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf
+  ('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m)
+  {r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+
+  ('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)
+  +a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l
+  [i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */
+  </script>
+  
+<script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+          // Store hash
+          var hash = this.hash;
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
+    
+<script>
+  $(document).ready(function(){
+  	$('.frame').click(function(){
+		$('.top').addClass('open');
+		$('.message').addClass('pull');
+    })
+  });
+</script>
+    
+<script>
+  // .modal-backdrop classes
+  $(".modal-transparent").on('show.bs.modal', function () {
+    setTimeout( function() {
+      $(".modal-backdrop").addClass("modal-backdrop-transparent");
+      }, 0);
+    });
+  $(".modal-transparent").on('hidden.bs.modal', function () {
+    $(".modal-backdrop").addClass("modal-backdrop-transparent");
+  });
+</script>
+    
+<script>
+  // .modal-backdrop classes
+  $(".modal-transparent2").on('show.bs.modal', function () {
+    setTimeout( function() {
+      $(".modal-backdrop").addClass("modal-backdrop-transparent2");
+      }, 0);
+    });
+  $(".modal-transparent2").on('hidden.bs.modal', function () {
+    $(".modal-backdrop").addClass("modal-backdrop-transparent2");
+  });
+</script>
+    
   </body>
 </html>
 

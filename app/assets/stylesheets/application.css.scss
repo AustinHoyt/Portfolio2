@@ -29,6 +29,10 @@ body, html {
   font-family: 'Montserrat', sans-serif;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 
 .button {
     padding: .5rem 2.2rem;
@@ -57,12 +61,6 @@ img {
   height: auto;
 }
 
-.button-primary {
-  color: #2A3A3F;
-  background-color: transparent;
-  border: 2px solid #4caf50;
-  cursor: pointer;
-}
 
 
 
@@ -102,6 +100,7 @@ img {
 .w3-hover-opacity {
   cursor: pointer;
 }
+
 
 .btnStuff {
   margin-top: 20px;
@@ -154,9 +153,10 @@ img {
 // RESUME
 
 .resumeMain {
-  max-width: 1180px;
-  margin-top: 60px;
+  max-width: 1140px;
   background-color: #eee;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }
 
 .minBarrier {
@@ -171,3 +171,89 @@ img {
   text-transform: uppercase;
 }
 
+
+
+
+// Testing Modals
+
+/* .modal-transparent */
+
+.modal-transparent {
+  background: transparent;
+}
+.modal-transparent .modal-content {
+  background: transparent;
+}
+.modal-backdrop.modal-backdrop-transparent {
+  background: #ffffff;
+}
+.modal-backdrop.modal-backdrop-transparent.in {
+  opacity: .9;
+  filter: alpha(opacity=90);
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+@media (min-width: 768px) {
+  .modal-transparent .modal-dialog {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .modal-transparent .modal-dialog {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .modal-transparent .modal-dialog {
+     width: 1170px;
+  }
+}
+
+
+.close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 1;
+}
+
+.modal-btn {
+  width: 15em;
+  line-height: 2.5rem;
+  border-radius: 2em;
+  color: #ffffff;
+  border: 2px solid #4caf50;
+  white-space: nowrap;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+  &:hover {
+      background-color: #4caf50;
+      padding: 1.1rem 2.0rem;
+      width: 20em;
+    }
+}
+
+.button-primary {
+  color: #2A3A3F;
+  background-color: transparent;
+  border: 2px solid #4caf50;
+  cursor: pointer;
+}
+
+.modal-content2 {
+  background-color: #eee;
+}
+
+.form-group {
+  width: 90%;
+}
+
+// Left @ trying to make the form groups bigger to match
