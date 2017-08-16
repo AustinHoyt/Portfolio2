@@ -26,7 +26,12 @@ body, html {
   height: 100%;
   color: #777;
   line-height: 1.8;
+  font-weight: 700;
   font-family: 'Montserrat', sans-serif;
+}
+
+.weightedHeavy {
+  font-weight: 700;
 }
 
 a:link {
@@ -141,6 +146,7 @@ img {
 }
 
 
+
 .myWork-container {
   padding: 80px 0 20px;
 }
@@ -156,7 +162,6 @@ img {
   max-width: 1140px;
   background-color: #eee;
   margin-bottom: 10px;
-  margin-left: 10px;
 }
 
 .minBarrier {
@@ -178,11 +183,16 @@ img {
 
 /* .modal-transparent */
 
+body.modal-open {
+    overflow: visible;
+}
+
 .modal-transparent {
   background: transparent;
 }
 .modal-transparent .modal-content {
   background: transparent;
+  margin-right: 18px;
 }
 .modal-backdrop.modal-backdrop-transparent {
   background: #ffffff;
@@ -194,33 +204,23 @@ img {
 
 .modal-header {
   border-bottom: none;
+  padding: 0;
 }
 
-@media (min-width: 768px) {
-  .modal-transparent .modal-dialog {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .modal-transparent .modal-dialog {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .modal-transparent .modal-dialog {
-     width: 1170px;
-  }
+input.button {
+  color: green;
+  background-color: #fff;
 }
 
 
 .close {
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    line-height: 1;
-    color: #fff;
-    text-shadow: 0 1px 0 #fff;
-    opacity: 1;
+  float: right;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1;
+  color: #2A3A3F;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 1;
 }
 
 .modal-btn {
@@ -237,7 +237,7 @@ img {
   &:hover {
       background-color: #4caf50;
       padding: 1.1rem 2.0rem;
-      width: 20em;
+      width: 16em;
     }
 }
 
@@ -248,12 +248,97 @@ img {
   cursor: pointer;
 }
 
-.modal-content2 {
+div.modal-dialog {
+  width: 100%;
+  height: 100%;
+}
+
+// div.modalBG {
+//   width: 50%;
+// }
+
+.modal-content1 {
+  color: #2A3A3F;
+  background-color: #fff;
+  margin: 20px;
+  height: 100%;
+  max-width: 1170px;
+}
+
+.resumeBox {
   background-color: #eee;
+  width: 100%;
 }
 
-.form-group {
-  width: 90%;
+.modal-content2 {
+  color: #2A3A3F;
+  background-color: #A8FFB5;
+  margin: 20px;
+  height: 100%;
 }
 
-// Left @ trying to make the form groups bigger to match
+.form-group-msg {
+  width: 100%;
+}
+
+textarea#Message {
+  width: 100%;
+  font-size: 1.3rem;
+  padding: 20px;
+  min-height: 175px;
+  border-radius: 2em;
+  border: 3px solid #2A3A3F;
+}
+
+input#name {
+  width: 100%;
+  border: 3px solid #2A3A3F;
+  padding: 20px;
+  border-radius: 2em;
+}
+
+input#email {
+  width: 100%;
+  padding: 20px;
+  border: 3px solid #2A3A3F;
+  border-radius: 2em;
+}
+
+input#submitBtn {
+  color: green;
+}
+
+
+
+::-webkit-input-placeholder {
+ font-size: 1.1rem;
+ color: #d0cdfa;
+ text-transform: uppercase;
+ text-transform: uppercase;
+ text-align: center;
+ font-weight: 700;
+}
+:-moz-placeholder { /* older Firefox*/
+ font-size: 1.1rem;
+ color: #d0cdfa;
+ text-transform: uppercase;
+ text-transform: uppercase;
+ text-align: center;
+ font-weight: 700;
+}
+::-moz-placeholder { /* Firefox 19+ */ 
+ font-size: 1.1rem;
+ color: #d0cdfa;
+ text-transform: uppercase;
+ text-transform: uppercase;
+ text-align: center;
+ font-weight: 700;
+} 
+:-ms-input-placeholder { 
+ font-size: 1.1rem;
+ color: #d0cdfa;
+ text-transform: uppercase;
+ text-transform: uppercase;
+ text-align: center;
+ font-weight: 700;
+}
