@@ -40,22 +40,22 @@ a:link {
 
 
 .button {
-  padding: .5rem 2.2rem;
-  font-size: 1.3rem;
-  line-height: normal;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-  letter-spacing: 0;
-  border-radius: 50px;
-  border: 2px solid #999;
-  color: #999;
-  &:hover {
-    padding: .8rem 3.0rem;
-    text-decoration: none;
-  }
+    padding: .5rem 2.2rem;
+    font-size: 1.3rem;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    letter-spacing: 0;
+    border-radius: 50px;
+    border: 2px solid #999;
+    color: #999;
+    &:hover {
+      padding: .8rem 3.0rem;
+      text-decoration: none;
+    }
 }
 .visitSites {
   margin-top: 50px;  
@@ -72,30 +72,22 @@ img {
 
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url("BG1.jpg");
-  min-height: 100%;
-  max-height: 90%;
-  overflow: hidden;
-}
-
-/* Second image (Portfolio) */
-.bgimg-2 {
-  background-image: url("BG2.jpg");
-  min-height: 500px;
+    background-image: url('BG1');
+    min-height: 100%;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("BG3.jpg");
-  min-height: 500px;
+    background-image: url("BG3.jpg");
+    min-height: 500px;
 }
 
 .w3-wide {
@@ -114,9 +106,9 @@ img {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
-  }
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
 }
 
 .fa {
@@ -184,7 +176,7 @@ img {
 /* .modal-transparent */
 
 body.modal-open {
-  overflow: visible;
+    overflow: visible;
 }
 
 .modal-transparent {
@@ -235,10 +227,10 @@ input.button {
   text-decoration: none;
   transition: all .3s ease-in-out;
   &:hover {
-    background-color: #4caf50;
-    padding: 1.1rem 2.0rem;
-    width: 16em;
-  }
+      background-color: #4caf50;
+      padding: 1.1rem 2.0rem;
+      width: 16em;
+    }
 }
 
 .button-primary {
