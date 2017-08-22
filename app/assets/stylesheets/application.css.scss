@@ -80,8 +80,9 @@ img {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('NewBG1.jpg');
   min-height: 100%;
+  max-height: 90%;
+  overflow: hidden;
 }
 
 /* Second image (Portfolio) */
