@@ -66,10 +66,6 @@ img {
   height: auto;
 }
 
-
-
-
-
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: fixed;
@@ -80,13 +76,13 @@ img {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-   background-image: image-url('BG1.jpeg');
+   background-image: image-url('BG1.jpg');
     min-height: 100%;
 }
 
 /* Third image (Contact) */
 .bgimg-2 {
-    background-image: image-url('BG2.jpg');
+    background-image: image-url('BG2.jpeg');
     min-height: 500px;
 }
 
@@ -103,6 +99,9 @@ img {
   margin-top: 20px;
 }
 
+.bgMid {
+  margin-top: 200px;
+}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
