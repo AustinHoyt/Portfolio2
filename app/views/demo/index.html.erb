@@ -10,9 +10,9 @@
           <h4 class="w3-row-padding w3-center w3-text-white w3-xlarge  w3-animate-opacity">I'm a front-end web developer</h4>
         </div>
   
-        <div class="w3-row-padding w3-display-bottommiddle">
+        <div class="cont-btn w3-row-padding w3-display-bottommiddle">
           <a href="#about" class="w3-padding-16">
-            <h6 class="cont-btn w3-green w3-round-xxlarge w3-center w3-animate-opacity" onclick="myFunction()">Scroll Down!<br>
+            <h6 class="w3-green w3-round-xxlarge w3-center w3-animate-opacity" onclick="myFunction()">Scroll Down!<br>
             <i class="fa fa-chevron-down"></i></h6>
           </a>
         </div>
@@ -20,8 +20,6 @@
       </div>
     </div>
   </div>
-
-
 
 <!-- Container (About Section) -->
 <section id="about">
@@ -31,7 +29,7 @@
       <h2 class="w3-center w3-padding-32 weightedHeavy">From Marketing to Web Development</h2>
       <div class="col-md-12 w3-padding-large">
         <ul class="w3-padding">
-          <li><p>Graduated May, 2016 earning a B.B.A. in Marketing Management</p></li>
+          <li><p>Graduated May 2016 earning a B.B.A. in Marketing Management</p></li>
           <li><p>Suffered a third knee surgery that kept me immobile a year</p></li>
           <li><p>Having time and a love for computers, I decided to learn how to build a website
                  for my favorite video game. It was much harder than I expected</p></li>
@@ -71,7 +69,7 @@
       <div class="w3-third w3-padding col-md-4 w3-container w3-center">
         <i class="w3-green fa fa-mobile fa-4x"></i>
         <h3 class="weightedHeavy">Diligence</h3>
-        <p class="barrier w3-padding">My aim is to use modern design with HTML, CSS, and Javascript, including detailed market analytics to help you succeed</p>
+        <p class="barrier w3-padding">My aim is to use modern design with HTML, CSS, and Javascript, including detailed market analytics</p>
         <hr>
       </div>
     
@@ -96,8 +94,8 @@
           <h3 class="weightedHeavy">Example Site 1</h3>
             <p>Building this sample site provided the perfect opportunity to create a site from scratch.</p>
             <br>
-            <p>On one hand this gave me a much better understanding of the problems that
-               arise when creating a website from scratch, and how to solve them.</p>
+            <p>This gave me a much better understanding of the problems that
+               arise when creating a website from scratch and how to solve them.</p>
         </div>
       
         <div class="w3-half col-md-6 w3-container w3-center">
@@ -123,7 +121,7 @@
           <p class="w3-padding">It is intended to connect developers, entrepreneurs,
           and investors. Bringing a community together could help everyone accomplish their goals.</p>
           <p class="w3-padding">It isn't the prettiest, but it gave me a much
-          better handle on Ruby on Rails, GitHub, Sass, and how to use gems
+          better handle on Ruby on Rails, GitHub, Sass, and what gems to use
           to save users, login & logout, and e-commerce.</p>
       </div>
         
@@ -156,8 +154,8 @@
 <div class="w3-content w3-container" id="contact">
   <div class="w3-row w3-section">
     <div class="w3-large w3-center">
-      <h5>I am currently looking for either full-time employment or freelance work</h5>
-      <h6>Feel free to check out my resume and send me a message</h6>
+      <h5 class="weightedHeavy">I am currently looking for either full-time employment or freelance work</h5>
+      <h6 class="weightedHeavy">Feel free to check out my resume and send me a message</h6>
     </div>
   </div>
 </div>
@@ -176,44 +174,44 @@
     
     <div>
       <div class="w3-center">
-        <button type="button" class="cont-btn btn btn-primary" data-toggle="modal" data-target="#modal-transparent2">
-         <i class="fa fa-envelope"></i>eMail Me
+        <button type="button" class="modal-btn btn btn-primary" data-toggle="modal" data-target="#modal-transparent">
+          <i class="fa fa-book"></i>Resume
         </button>
       </div>
     </div>
     
     <div>
       <div class="w3-center w3-margin-top">
-        <button type="button" class="cont-btn btn btn-primary" data-toggle="modal" data-target="#modal-transparent">
-          <i class="fa fa-book"></i>My resume
+        <button type="button" class="modal-btn btn btn-primary" data-toggle="modal" data-target="#modal-transparent2">
+         <i class="fa fa-envelope"></i>eMail Me
         </button>
       </div>
     </div>
-    
+
   </div>
   
-
-
-
+  
 <!-- Modal transparent -->
 <div class="modal modal-transparent fade" id="modal-transparent" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-container w3-display-middle">
+  <div class="modal-container">
      <div class="modal-content1">
       <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-<section>
+
   
     <div class="container resumeBox w3-animate-zoom">
     
     <div id="resume">
     
       <div class="w3-row">
+        
         <h2 class="w3-center w3-padding-32">Austin Hoyt</h2>
         <div class="minBarrier w3-hide-medium w3-hide-large"></div>
         <h6 class="w3-center">3793 Douglass Ave, Memphis, TN 38111</h6>
         <h6 class="w3-center">AHoytDeveloper@gmail.com</h6>
         <h6 class="w3-center">Phone - 901-336-0585</h6>
       </div>  
-    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    
+    
       <div class="w3-twothird w3-container w3-left">
         <h3 class="barrier w3-padding"><i class="fa fa-gift w3-hide-small"></i><strong>Experience</strong></h3>
         <br>
@@ -265,17 +263,17 @@
         </ul>
       </div>
       
-      <div class="w3-third w3-container w3-padding">
+      <div class="w3-third w3-container w3-right">
         <h4 class="barrier w3-padding"><i class="fa fa-wrench"></i><strong>Skills</strong></h4>
         <ul>
           <li><p>HTML5, CSS3, Sass, Javascript, Bootstrap, GitHub, jQuery, Rails,
           Google Analytics, Marketing Mgmt, Supply Chain Mgmt, Market Analysis</p></li>
         </ul>
       </div>
-  
+      
     </div>
   </div>
-</section>
+
 </div>
 
   
@@ -365,12 +363,7 @@
       <p class="w3-center"><i class="fa fa-envelope w3-center fa-fw  w3-xlarge"></i> Email: AHoytDeveloper@gmail.com<br></p>
     </div>
   </div>
-  <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
+
   <a href="#home" class="w3-button w3-white w3-large"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
 </footer>
  
