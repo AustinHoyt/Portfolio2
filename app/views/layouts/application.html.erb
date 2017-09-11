@@ -1,1 +1,98 @@
-<!DOCTYPE html><html lang=en><meta content="width=device-width,initial-scale=1"name=viewport><title>HoytDevelopment</title><%= csrf_meta_tags %><%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %><%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %><link href=https://www.w3schools.com/w3css/4/w3.css rel=stylesheet><link href="https://fonts.googleapis.com/css?family=Montserrat:500,700i"rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css rel=stylesheet><script async src=https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js></script><script async src=https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js></script><div class="w3-hide-small w3-animate-opacity w3-top"><div class="w3-bar w3-green w3-large w3-opacity-off"id=myNavbar><a class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-right"href=javascript:void(0); onclick=toggleFunction() title="Toggle Navigation Menu"><i class="fa fa-bars"></i> </a><a class="w3-bar-item w3-button w3-hide-small w3-hover-teal"href=#home>HOME</a> <a class="w3-bar-item w3-button w3-hide-small w3-hover-teal"href=#about><i class="fa fa-male"></i>About</a> <a class="w3-bar-item w3-button w3-hide-small w3-hover-teal"href=#strength><i class="fa fa-balance-scale"></i>Strengths</a> <a class="w3-bar-item w3-button w3-hide-small w3-hover-teal"href=#portfolio><i class="fa fa-photo"></i>Portfolio</a> <a class="w3-bar-item w3-button w3-hide-small w3-hover-teal"href=#contact><i class="fa fa-envelope"></i>Contact Me</a></div><div class="w3-hide-large w3-hide-medium w3-bar-block w3-hide w3-white"id=navDemo><a class="w3-bar-item w3-button"href=#about onclick=toggleFunction()>About</a> <a class="w3-bar-item w3-button"href=#strength onclick=toggleFunction()>Strengths</a> <a class="w3-bar-item w3-button"href=#portfolio onclick=toggleFunction()>Portfolio</a> <a class="w3-bar-item w3-button"href=#contact onclick=toggleFunction()>Contact</a></div></div><%= yield %><script async src=https://usebasin.com/f/363b98eca5af/ahoy.js defer></script><script>!function(e,t,r,c,n,a,l,i,o){try{for(l=e.getElementsByTagName("a"),o=e.createElement("textarea"),c=0;l.length-c;c++)try{if(r=l[c].href,t=r.indexOf("/cdn-cgi/l/email-protection"),i=r.length,r&&t>-1&&i>28){if(n=28+t,t="",n<i){for(a="0x"+r.substr(n,2)|0,n+=2;n<i&&"X"!=r.charAt(n);n+=2)t+="%"+("0"+("0x"+r.substr(n,2)^a).toString(16)).slice(-2);n++,t=decodeURIComponent(t)+r.substr(n,i-n)}o.innerHTML=t.replace(/</g,"&lt;").replace(/\>/g,"&gt;"),l[c].href="mailto:"+o.value}}catch(e){}}catch(e){}}(document)</script><script>$(document).ready(function(){$("a").on("click",function(o){if(""!==this.hash){o.preventDefault();var t=this.hash;$("html, body").animate({scrollTop:$(t).offset().top},800,function(){window.location.hash=t})}})})</script><script>$(".modal-transparent").on("show.bs.modal",function(){setTimeout(function(){$(".modal-backdrop").addClass("modal-backdrop-transparent")},0)}),$(".modal-transparent").on("hidden.bs.modal",function(){$(".modal-backdrop").addClass("modal-backdrop-transparent")})</script><script>$(".modal-transparent2").on("show.bs.modal",function(){setTimeout(function(){$(".modal-backdrop").addClass("modal-backdrop-transparent2")},0)}),$(".modal-transparent2").on("hidden.bs.modal",function(){$(".modal-backdrop").addClass("modal-backdrop-transparent2")})</script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HoytDevelopment</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:500,700i" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Navbar (sit on top) -->
+      <div class="w3-top w3-hide-small w3-animate-opacity">
+        <div class="w3-bar w3-large w3-green w3-opacity-off" id="myNavbar">
+          <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+            <i class="fa fa-bars"></i>
+          </a>
+          <a href="#home" class="w3-bar-item w3-hover-teal  w3-button w3-hide-small">HOME</a>
+          <a href="#about" class="w3-bar-item w3-hover-teal w3-button w3-hide-small"><i class="fa fa-male"></i>About</a>
+          <a href="#strength" class="w3-bar-item w3-hover-teal w3-button w3-hide-small"><i class="fa fa-balance-scale"></i>Strengths</a>
+          <a href="#portfolio" class="w3-bar-item w3-hover-teal w3-button w3-hide-small"><i class="fa fa-photo"></i>Portfolio</a>
+          <a href="#contact" class="w3-bar-item w3-hover-teal w3-button w3-hide-small"><i class="fa fa-envelope"></i>Contact Me</a>
+        </div>
+      
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+          <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">About</a>
+          <a href="#strength" class="w3-bar-item w3-button" onclick="toggleFunction()">Strengths</a>
+          <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">Portfolio</a>
+          <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">Contact</a>
+        </div>
+      </div>
+      
+
+    <%= yield %>
+    <!-- Basin Form Analytics-->
+  <script src="https://usebasin.com/f/363b98eca5af/ahoy.js" async="" defer=""></script>
+  
+  <script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');
+  t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf
+  ('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m)
+  {r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+
+  ('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)
+  +a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l
+  [i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */
+  </script>
+  
+<script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
+    
+<script>
+  // .modal-backdrop classes
+  $(".modal-transparent").on('show.bs.modal', function () {
+    setTimeout( function() {
+      $(".modal-backdrop").addClass("modal-backdrop-transparent");
+      }, 0);
+    });
+  $(".modal-transparent").on('hidden.bs.modal', function () {
+    $(".modal-backdrop").addClass("modal-backdrop-transparent");
+  });
+</script>
+    
+<script>
+  // .modal-backdrop classes
+  $(".modal-transparent2").on('show.bs.modal', function () {
+    setTimeout( function() {
+      $(".modal-backdrop").addClass("modal-backdrop-transparent2");
+      }, 0);
+    });
+  $(".modal-transparent2").on('hidden.bs.modal', function () {
+    $(".modal-backdrop").addClass("modal-backdrop-transparent2");
+  });
+</script>
+    
+  </body>
+</html>
+
+
+
