@@ -35,27 +35,27 @@ body, html {
 }
 
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 
 .button {
-    padding: .5rem 2.2rem;
-    font-size: 1.3rem;
-    line-height: normal;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    letter-spacing: 0;
-    border-radius: 50px;
-    border: 2px solid #999;
-    color: #999;
-    &:hover {
-      padding: .8rem 3.0rem;
-      text-decoration: none;
-    }
+  padding: .5rem 2.2rem;
+  font-size: 1.3rem;
+  line-height: normal;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  letter-spacing: 0;
+  border-radius: 50px;
+  border: 2px solid #999;
+  color: #999;
+  &:hover {
+    padding: .8rem 3.0rem;
+    text-decoration: none;
+  }
 }
 .visitSites {
   margin-top: 20px;  
@@ -66,12 +66,13 @@ img {
   height: auto;
 }
 
+
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* First image (Logo. Full height) */
@@ -86,12 +87,15 @@ img {
   min-height: 50%;
 }
 
-
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2 {
+        background-attachment: scroll;
+    }
+}
 
 .w3-hover-opacity {
   cursor: pointer;
 }
-
 
 .btnStuff {
   margin-bottom: 20px;
@@ -100,7 +104,6 @@ img {
 .bgMid {
   margin-top: 200px;
 }
-
 
 .fa {
   padding-right: 5px;
