@@ -26,12 +26,16 @@ body, html {
   height: 100%;
   color: #777;
   line-height: 1.8;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .weightedHeavy {
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 a:link {
@@ -203,17 +207,17 @@ div.modal-dialog {
 
 .close {
   float: right;
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 700;
   line-height: 1;
   color: #2A3A3F;
   text-shadow: 0 1px 0 #fff;
   opacity: 1;
-  margin-right: 40px;
 }
 
 .modal-btn {
-  width: 10em;
+  width: 15em;
+  height: 10em;
   line-height: 2.5rem;
   border-radius: 2em;
   color: #ffffff;
@@ -226,7 +230,8 @@ div.modal-dialog {
   &:hover {
     background-color: #4caf50;
     padding: 1.1rem 2.0rem;
-    width: 12em;
+    width: 17em;
+    height: 12em;
   }
 }
 
