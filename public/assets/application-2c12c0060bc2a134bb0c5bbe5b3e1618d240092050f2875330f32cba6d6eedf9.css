@@ -12318,7 +12318,7 @@ body, html {
   height: 100%;
   color: #777;
   line-height: 1.8;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 /* line 33, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
@@ -12328,11 +12328,16 @@ body, html {
 }
 
 /* line 38, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+.underline {
+  text-decoration: underline;
+}
+
+/* line 42, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 a:link {
   text-decoration: none;
 }
 
-/* line 43, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 47, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .button {
   padding: .5rem 2.2rem;
   font-size: 1.3rem;
@@ -12347,25 +12352,25 @@ a:link {
   border: 2px solid #999;
   color: #999;
 }
-/* line 56, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 60, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .button:hover {
   padding: .8rem 3.0rem;
   text-decoration: none;
 }
 
-/* line 61, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 65, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .visitSites {
   margin-top: 20px;
 }
 
-/* line 65, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 69, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 img {
   width: 100%;
   height: auto;
 }
 
 /* Create a Parallax Effect */
-/* line 72, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 76, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .bgimg-1, .bgimg-2, .bgimg-3 {
   background-attachment: fixed;
   background-position: center;
@@ -12374,126 +12379,125 @@ img {
 }
 
 /* First image (Logo. Full height) */
-/* line 80, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 84, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .bgimg-1 {
   background-image: url(/assets/BG1-38f953edd450967398c7d42aea312aa9b2a614498855b6dc5733b3c31cca3cf2.jpg);
   min-height: 100%;
 }
 
 /* Third image (Contact) */
-/* line 86, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 90, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .bgimg-2 {
   background-image: url(/assets/BG2-58b120b2bf7376b4d4ff488e00c4a948aeb1aaecc67d47aadb41bdac59523aa5.jpg);
   min-height: 50%;
 }
 
 @media only screen and (max-device-width: 1024px) {
-  /* line 92, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+  /* line 96, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
   .bgimg-1, .bgimg-2 {
     background-attachment: scroll;
   }
 }
-/* line 97, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 101, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .w3-hover-opacity {
   cursor: pointer;
 }
 
-/* line 101, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 105, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .btnStuff {
   margin-bottom: 20px;
 }
 
-/* line 105, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 109, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .bgMid {
   margin-top: 200px;
 }
 
-/* line 109, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 113, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .fa {
   padding-right: 5px;
   padding-left: 5px;
 }
 
-/* line 114, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 118, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .work-bg {
   color: #2A3A3F;
 }
 
-/* line 118, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 122, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .str-bg {
   background-color: #eee;
   color: #2A3A3F;
 }
 
-/* line 123, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 127, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .workContainer {
   border-bottom: 1px solid #d6e1e5;
 }
 
-/* line 127, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 131, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .w3-container {
   max-width: 1140px;
 }
 
-/* line 131, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 135, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .about-wrap {
   color: #2A3A3F;
 }
 
-/* line 138, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 142, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .resumeBox {
   background-color: #eee;
-  width: 100%;
 }
 
-/* line 146, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 149, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .minBarrier {
   border-bottom: 1px solid #4CAF50;
 }
 
-/* line 150, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 153, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .barrier {
   border-bottom: 2px solid #4CAF50;
 }
 
 /* .modal-transparent */
-/* line 159, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 162, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 body.modal-open {
   overflow: visible;
 }
 
-/* line 163, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 166, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .modal-transparent {
   background: transparent;
 }
 
-/* line 166, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 169, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .modal-transparent .modal-content {
   background: transparent;
   margin-right: 18px;
 }
 
-/* line 170, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 173, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .modal-backdrop.modal-backdrop-transparent {
   background: #ffffff;
 }
 
-/* line 173, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 176, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .modal-backdrop.modal-backdrop-transparent.in {
   opacity: .9;
   filter: alpha(opacity=90);
 }
 
-/* line 178, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 181, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .modal-header {
   border-bottom: none;
   padding: 0;
 }
 
-/* line 183, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 186, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .modal-content1 {
   color: #2A3A3F;
-  background-color: #fff;
+  background-color: #82af82;
   margin-top: 20px;
   margin-left: 5px;
   padding: 20px;
@@ -12501,7 +12505,7 @@ body.modal-open {
   width: 100%;
 }
 
-/* line 193, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 196, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .modal-content2 {
   color: #2A3A3F;
   background-color: #A8FFB5;
@@ -12509,27 +12513,27 @@ body.modal-open {
   height: 100%;
 }
 
-/* line 200, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 203, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 div.modal-dialog {
   width: 100%;
   height: 100%;
 }
 
-/* line 206, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 209, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .close {
   float: right;
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 700;
   line-height: 1;
   color: #2A3A3F;
   text-shadow: 0 1px 0 #fff;
   opacity: 1;
-  margin-right: 40px;
 }
 
-/* line 217, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 219, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .modal-btn {
-  width: 10em;
+  width: 15em;
+  height: 10em;
   line-height: 2.5rem;
   border-radius: 2em;
   color: #ffffff;
@@ -12540,20 +12544,21 @@ div.modal-dialog {
   text-decoration: none;
   transition: all .3s ease-in-out;
 }
-/* line 228, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 231, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .modal-btn:hover {
   background-color: #4caf50;
   padding: 1.1rem 2.0rem;
-  width: 12em;
+  width: 17em;
+  height: 12em;
 }
 
-/* line 235, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 239, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 input.button {
   color: green;
   background-color: #fff;
 }
 
-/* line 241, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 245, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .cont-btn {
   width: 13em;
   line-height: 2.5rem;
@@ -12565,14 +12570,14 @@ input.button {
   text-decoration: none;
   transition: all .3s ease-in-out;
 }
-/* line 251, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 255, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .cont-btn:hover {
   background-color: #4caf50;
   padding: 1.1rem 2.0rem;
   width: 14em;
 }
 
-/* line 258, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 262, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .button-primary {
   color: #2A3A3F;
   background-color: transparent;
@@ -12580,12 +12585,12 @@ input.button {
   cursor: pointer;
 }
 
-/* line 267, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 271, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .form-group-msg {
   width: 100%;
 }
 
-/* line 271, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 275, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 textarea#Message {
   width: 100%;
   font-size: 1.3rem;
@@ -12595,7 +12600,7 @@ textarea#Message {
   border: 3px solid #2A3A3F;
 }
 
-/* line 280, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 284, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 input#name {
   width: 100%;
   border: 3px solid #2A3A3F;
@@ -12603,7 +12608,7 @@ input#name {
   border-radius: 2em;
 }
 
-/* line 287, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 291, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 input#email {
   width: 100%;
   padding: 20px;
@@ -12611,12 +12616,12 @@ input#email {
   border-radius: 2em;
 }
 
-/* line 294, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 298, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 input#submitBtn {
   color: green;
 }
 
-/* line 300, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 304, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 ::-webkit-input-placeholder {
   font-size: 1.1rem;
   color: #d0cdfa;
@@ -12626,7 +12631,7 @@ input#submitBtn {
   font-weight: 700;
 }
 
-/* line 308, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 312, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 :-moz-placeholder {
   /* older Firefox*/
   font-size: 1.1rem;
@@ -12637,7 +12642,7 @@ input#submitBtn {
   font-weight: 700;
 }
 
-/* line 316, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 320, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 ::-moz-placeholder {
   /* Firefox 19+ */
   font-size: 1.1rem;
@@ -12648,7 +12653,7 @@ input#submitBtn {
   font-weight: 700;
 }
 
-/* line 324, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
+/* line 328, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 :-ms-input-placeholder {
   font-size: 1.1rem;
   color: #d0cdfa;
