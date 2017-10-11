@@ -12532,8 +12532,8 @@ div.modal-dialog {
 
 /* line 219, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
 .modal-btn {
-  width: 15em;
-  height: 10em;
+  width: 10em;
+  height: 6em;
   line-height: 2.5rem;
   border-radius: 2em;
   color: #ffffff;
@@ -12548,8 +12548,8 @@ div.modal-dialog {
 .modal-btn:hover {
   background-color: #4caf50;
   padding: 1.1rem 2.0rem;
-  width: 17em;
-  height: 12em;
+  width: 12em;
+  height: 8em;
 }
 
 /* line 239, /home/ubuntu/workspace/saasapp/app/assets/stylesheets/application.css.scss */
